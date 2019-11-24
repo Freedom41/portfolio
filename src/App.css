@@ -1,22 +1,107 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Rock Salt', cursive;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: #0E0440;
+   color: white;
+   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #0E0440;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background: #0E0440;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.welcome-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  font-size: 1.5rem;
+  font-style: bold;
+  justify-content: space-around;
+  background: #2B0DBF;
+}
+
+.img {
+   height: 250px; 
+   border-radius: 100px;
+   margin: 1rem;
+   padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 35vh;
+  background: #0E0440;
+  padding: 2rem;
+  font-size: 5rem;
+}
+
+
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  background: #1D0980;
+  padding: 1rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem;
+  padding: 0.25rem;
+  background: white;
+  font-family: 'Caveat Brush', cursive;
+  color: black;
+  font-size: 2rem;
+  border-radius: 25px;
+  width: 30%;
+}
+
+.projectImg {
+  height: 300px;
+  width: 230px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    width: inherit;
+  }
 }
