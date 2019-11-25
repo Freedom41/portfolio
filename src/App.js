@@ -50,7 +50,7 @@ function App() {
           <p> File MetaData API, built with NodeJS, Express and HTML/CSS </p>
         </div>
         <div className="project">
-          <a href="https://successful-fish.glitch.me/"> <img className="projectImg" src="https://res.cloudinary.com/freedom41/image/upload/v1574628432/anonmsg.png" alt="project img" />  </a>
+          <a href="https://successful-fish.glitch.me/"> <img className="projectImg" src="https://res.cloudinary.com/freedom41/image/upload/v1574710302/anonmsgs.png" alt="project img" />  </a>
           <p> Anon Chat App built with HTML, CSS , Mongoose, Express, NodeJS. Testing done with CHai and Mocha. CRUD implemented</p>
         </div>
        </div>
