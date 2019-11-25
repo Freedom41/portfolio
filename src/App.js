@@ -39,7 +39,7 @@ function App() {
         </div>
         <div className="project">
           <a href="https://codepen.io/Freedom41/full/wywGNX"> <img className="projectImg" src="https://res.cloudinary.com/freedom41/image/upload/v1574627320/wiki.png" alt="project img" />  </a>
-          <p> Wikipedia Viewer built with Vanilla JS, CSS and HTML, uses the official wiki API.</p>
+          <p> Wikipedia Viewer built with React, uses the official wiki API.</p>
         </div>
         <div className="project">
           <a href="https://fast-phalange.glitch.me/"> <img className="projectImg" src="https://res.cloudinary.com/freedom41/image/upload/v1574628029/exercise.png" alt="project img" />  </a>
